@@ -1,0 +1,28 @@
+.pizzaContainer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.searchWrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.searchBar{
+    border: 2px solid darkcyan;
+    border-radius: 20px;
+    width: 30rem;
+    background-color: transparent;
+    padding: 16px;
+    outline: none;
+    align-self: center;
+}
+
+.searchBar::placeholder{
+    color:darkcyan;
+    font-weight: 700;
+    font-size: 16px;
+}
